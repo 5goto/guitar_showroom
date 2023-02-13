@@ -1,0 +1,142 @@
+
+html, body {
+    height: 100%;
+    color: rgb(16, 16, 16, 0.8);
+    /* background-color: rgb(16, 16, 16, 0.8);
+    background-color: rgba(16, 16, 16, 0.8); */
+    line-height: 1.5;
+    }
+
+h1 {
+    font-size: 5em;
+    text-align: center;
+
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border: 3px solid;
+}
+
+
+.main_panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 3px solid; */
+}
+
+
+.menu ul {
+    list-style-type: none;
+    display: flex; 
+}
+
+.menu ul a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(16, 16, 16, 0.8);
+  }
+
+.menu ul li {
+    margin: 0px 10px;
+    font-size: 1.2em;
+  }
+  
+  .menu ul li:hover {
+    color: rgba(153, 6, 233, 0.8);
+    text-decoration: underline solid rgb(16, 16, 16, 0.8);
+  }
+
+.subtitle {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 4em;
+}
+
+img {
+    max-width: 100%;
+}
+
+.description-block
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.description {
+    flex: 0 1 auto;
+    width: 800px;
+    font-size: 2em;
+    line-height: 2em;
+    text-indent: 1.5em;
+    margin: 0;
+}
+
+.description-image
+{
+    flex: 0 1 auto;
+    /* order: 2; */
+}
+
+.room-descrtiption-panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid rgb(16, 16, 16, 0.8);
+}
+
+.description-panel-block {
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 400px;
+    flex: 0 1 auto;
+    /* justify-content: center; */
+}
+
+.even-panel-image {
+    order: 2;
+}
+
+.description-panel-block p {
+    line-height: 2em;
+    text-indent: 1.5em;
+    font-size: 1.5em;
+}
+
+/* .room-descrtiption-panel img {
+    max-width: 50%;
+} */
+
+.guitars_tab_1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.guitars_tab_2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.tab_item {
+    width: 500px;
+
+    border: 2px solid rgb(16, 16, 16, 0.8);
+    border: 2px solid rgba(16, 16, 16, 0.8);
+    filter: grayscale(100%); 
+}
+
+.tab_item:hover {
+    filter: grayscale(0%);    
+}
+
+.tab_item figcaption {
+    font-size: 2em;
+}
